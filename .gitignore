@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc 
+*.pyo 
+*.pyd
+.Python
+
+# Virtula enviornment -very important never push this 
+venv/
+env/
+.env/
+.venv/
+
+# streamlit secrets
+.streamlit/secrets.toml
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pickle files with sensitivev data(rmewove before pushing
+)
+#*.pickle
