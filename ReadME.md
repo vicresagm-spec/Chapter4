@@ -143,12 +143,10 @@ This app is deployed on **Streamlit Community Cloud**.
 6. Go to **⋮ → Edit secrets** and add:(i ddi it in the advanced setting before pressing the deploy button )
 
 
-```
 ## 🌐 Live App
-👉 [Open the Penguin Classifier](https://chapter4-book.streamlit.app)
+<a href= "https://chapter4-book.streamlit.app">👉 [Open the Penguin Classifier]</a>
 
-> Password: `12345`
----
+''' Password: `12345`'''
 
 ## Dependencies
 
