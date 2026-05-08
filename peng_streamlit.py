@@ -4,6 +4,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import pandas as pd 
 st.title("Penguin Classifier")
+
+
+password_guess =st.text_input("enter the password",type ='password')
+if password_guess!= st.secrets["app_password"]:
+    st.warning('incorrect password')
+    st.stop()
 st.write("This app uses 6 input to predict the species of penguin using"
          " a model built on the Plamer's Penguins data set ")
 penguin_df =pd.read_csv('penguins.csv')
